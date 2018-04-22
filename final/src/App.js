@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Router, browserHistory, Route, Link } from 'react-router';
 import logo from './logo.svg';
 import './App.css';
+import Datum from './Datum.js';
 
 const Page = ({ title }) => (
     <div className="App">
@@ -47,3 +48,5 @@ class App extends Component {
     );
   }
 }
+
+export default App;
